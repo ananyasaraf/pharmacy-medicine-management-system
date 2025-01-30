@@ -1,0 +1,36 @@
+/* Product CRUD Page Styles */
+.product-container {
+  padding: 20px;
+}
+
+.product-container h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+#productForm {
+  margin-bottom: 30px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#productForm input {
+  margin-bottom: 15px;
+}
+
+#productTable {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#productTable th {
+  background-color: #3498db;
+  color: white;
+}
+
+#productTable td {
+  color: #333;
+}

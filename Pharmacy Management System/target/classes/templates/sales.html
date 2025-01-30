@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Report - Pharmacy Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar">
+    <div class="container">
+        <div class="logo">
+            <a href="#">Pharmacy<span>System</span></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="sales.html" class="active">Sales Report</a></li>
+            <li><a href="#" id="logout">Logout</a></li>
+        </ul>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </div>
+</nav>
+
+<div class="container fade-in">
+    <h1>Sales Report</h1>
+    <div class="card">
+        <table id="salesTable">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Product ID</th>
+                <th>Quantity Sold</th>
+                <th>Total Amount</th>
+                <th>Sale Date</th>
+            </tr>
+            </thead>
+            <tbody>
+            <!-- Sales rows will be dynamically added here -->
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2023 Pharmacy Management System. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
